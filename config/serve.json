@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://dundermifflinpapercompany.sharepoint.com/sites/Development/Shared%20Documents/Forms/AllItems.aspx",
+      "fieldCustomizers": {
+        "TESTFIELD": {
+          "id": "39e9a344-3641-441c-960d-ded59ddc01f0",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "jsonFieldExtension": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "39e9a344-3641-441c-960d-ded59ddc01f0",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
